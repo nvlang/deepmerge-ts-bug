@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      deepmerge-ts:
+        specifier: ^7.0.2
+        version: 7.0.2
+
+packages:
+
+  deepmerge-ts@7.0.2:
+    resolution: {integrity: sha512-kt42SClSQ1DTvAdUtPlZfcCHQxiiLG0nIRu6KJEnhRUc1WJwo1ZQwWcUDRw4ZCHcOUk+HIiTBhohGS/lLtITqQ==}
+    engines: {node: '>=16.0.0'}
+
+snapshots:
+
+  deepmerge-ts@7.0.2: {}

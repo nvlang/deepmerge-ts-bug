@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "lib": ["ESNext"],
+        "module": "Node16",
+        "moduleResolution": "Node16",
+        "target": "ESNext",
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "rootDir": ".",
+        "strict": true,
+        "noEmit": true,
+        "skipLibCheck": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["package.json", "*.ts"]
+}
